@@ -8,7 +8,7 @@ jobs:
     - name: Set up JDK
       uses: actions/setup-java@v2
       with:
-        java-verions: '11'
+        java-verion: '11'
         distribution: 'temurin'
     - name: Test
       run: mvn test
