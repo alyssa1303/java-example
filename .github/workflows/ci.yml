@@ -11,4 +11,4 @@ jobs:
         java-verions: '11'
         distribution: 'temurin'
     - name: Test
-       run: mvn test
+      run: mvn test
